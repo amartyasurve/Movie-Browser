@@ -1,5 +1,8 @@
 import React from 'react';
+import Footer from './components/Footer';
 import Header from './components/Header';
+import Home from './components/Home';
+//import  './index.css';
 // we can define component in two types like class component and function component
 // function component are of two types arrow and simple function ---> stateless function
 // class components are stateful components
@@ -8,6 +11,8 @@ const App = () => {
   return (
     <div className="App">
     <Header />
+    <Home />
+    <Footer />
     </div>
   );// it always returns a jsx file jsx--> xml used inside js is called jsx;
   //returns the value of render function 
